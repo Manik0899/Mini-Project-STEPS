@@ -1,0 +1,179 @@
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: gold !important;
+}
+
+img{
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.nav-item{
+    display: flex;
+}
+.upper-footer{
+    display: flex;
+    height: 100px;
+}
+.first-part{
+    color: white;
+    background-color: rgb(2, 73, 0);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    /* padding: 10px; */
+}
+.first-part > h3{
+    margin: 25px 0px 0px 150px;
+}
+.second-part{
+    display: flex;
+    background-color: green;
+    height: 90px;
+    width: 70%;
+    position: relative;
+    margin-left: 30%;
+}
+.second-part > h2{
+    margin: 20px 0px 0px 150px;
+}
+.second-part > input{
+    height: 30px;
+    margin: 25px 0px 0px 30px;
+}
+/* .third-part{
+    position: relative;
+    margin-left: 0%;
+} */
+.footer-content{
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+}
+.footer-content > div{
+    margin-top: 40px;
+}
+.footer-content > div > p{
+    font-size: x-large;
+    font-weight: bold;
+}
+.footer-content > div > ul > li{
+    font-size: large;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+}
+.footer-content > div > ul > li > a{
+    color: white;
+    font-style: italic;
+    text-decoration-line: none;
+}
+
+input{
+    width: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: brown;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.copyright{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    background-color: green;
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    .upper-footer{
+        height: 220px;
+    }
+    .first-part{
+        color: white;
+        background-color: rgb(2, 73, 0);
+        height: 100px;
+        width: 100%;
+    }
+    .first-part > h3{
+        margin: 25px 0px 0px 42%;
+    }
+    .second-part{
+        display: block;
+        background-color: green;
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .second-part > h2{
+        margin: 20px 0px 0px 32%;
+    }
+    .second-part > input{
+        height: 30px;
+        margin: 25px 0px 0px 35%;
+    }
+
+
+    .footer-content{
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .first-part > h3{
+        margin: 25px 0px 0px 42%;
+    }
+    .second-part > h2{
+        margin: 20px 0px 0px 25%;
+    }
+    .second-part > input{
+        height: 30px;
+        margin: 25px 0px 0px 25%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .first-part > h3{
+        margin: 25px 0px 0px 42%;
+    }
+    .second-part > h2{
+        margin: 20px 0px 0px 20%;
+        transform: scale(0.8, 0.8);
+    }
+    .second-part > input{
+        height: 30px;
+        margin: 25px 0px 0px 20%;
+        transform: scale(0.8, 0.8);
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .first-part > h3{
+        margin: 25px 0px 0px 30% !important;
+        transform: scale(0.8, 0.8);
+    }
+    .second-part > h2{
+        margin: 20px 0px 0px 7% !important;
+        transform: scale(0.6, 0.6) !important;
+    }
+    .second-part > input{
+        height: 30px;
+        margin: 25px 0px 0px 7% !important;
+        transform: scale(0.6, 0.6) !important;
+    }
+}

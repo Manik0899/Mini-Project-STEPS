@@ -1,0 +1,147 @@
+/* .container-2{
+    background-image: url('https://img.freepik.com/free-vector/realistic-galaxy-background_52683-12122.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.container-2{
+    background-color: rgba(0, 114, 0, 0.705);
+}
+.container-1{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.image-1{
+    position: absolute;
+    opacity: 0.4;
+    height: 500px;
+    width: 100%;
+}
+.text-over-image-1{
+    /* color: white; */
+    /* font-weight: bolder; */
+    height: 100px;
+    width: 60%;
+    margin: 110px auto auto auto;
+    /* justify-content: center; */
+    text-align: center;
+    /* position: relative; */
+}
+/* .text-over-image-1 > h1{
+    color: white;
+    font-weight: bolder;
+} */
+.contact{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+.getintouch{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    /* border-radius: 30%; */
+}
+.box{
+    height: 275px;
+    width: 310px;
+    /* border: 1px solid black; */
+    border-radius: 5%;
+    justify-content: space-evenly;
+}
+
+.box > h1{
+    text-align: center;
+    /* margin-top: 120px; */
+}
+.box > h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.box-1{
+    background-color: white;
+    color: green;
+}
+.box-2{
+    background-color: white;
+    color: green;
+}
+.box-3{
+    background-color: white;
+    color: green;
+}
+.container-last{
+    display: flex;
+    height: 550px;
+    background-color: rgba(0, 114, 0, 0.705);
+}
+
+.contact-form{
+    margin-top: 40px;
+}
+.form-input{
+    width: 60%;
+    height: 35px;
+    border: 2px solid;
+    border-color: brown;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border: 0px;
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+
+
+@media screen and (max-width: 950px) {
+
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .box{
+        margin: 0px 0px 30px 32%;
+        height: 275px;
+        width: 310px;
+        border-radius: 5%;
+        justify-content: space-evenly;
+    }
+
+    .box > i{
+        margin: 50px 0px 20px -20% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .box{
+        margin: 0px 0px 30px 20% !important;
+        transform: scale(0.8, 0.8);
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .box{
+        margin: 0px 0px 30px 0% !important;
+        transform: scale(0.6, 0.6) !important;
+    }
+}
